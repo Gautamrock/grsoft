@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <div class="side-menu">
+    <ul>
+      <li><a href="#section1">Nevigate your next</a></li>
+      <li><a href="#section2">About Us</a></li>
+      <li><a href="#section3">Our Services</a></li>
+      <li><a href="#section4">Our Features</a></li>
+      <li><a href="#section5">Our Blogs</a></li>
+      <li><a href="#section6">Contacts</a></li>
+    </ul>
+  </div>
+
+
+  <header class="mainSlide section" id="section1">
+    <div id="logo">
+      <img src="logo/gr-logo.png" alt="Dark Logo">  
+    </div>
+    <nav class="navbar">
+      <ul class="navmenu">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="#section2">About Us</a></li>
+        <li><a href="#section3">Our Services</a></li>
+        <li><a href="#section4">Our Features</a></li>
+        <li><a href="#section5">Our Blogs</a></li>
+        <li><a href="#section6">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+    </div>
+
+    <ul class="navslide">
+      <div class="close">
+        <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+      </div>
+      <li><a href="">Home</a></li>
+      <li><a href="#" id="company"> <i class="fa-solid fa-backward"></i> Company</a>
+        <ul class="list-unstyled" id="companySubmenu">
+          <div class="companyClose">
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+          <li><a href="#" class="ful">About Us</a></li>
+          <li><a href="#" class="ful">Why GRSoft</a></li>
+          <li><a href="#" class="ful">Leadership</a></li>
+          <li><a href="#" class="ful">Our Team</a></li>
+        </ul>
+      </li>
+      <li><a href="#" id="services"><i class="fa-solid fa-backward"></i> Services</a>
+        <ul class="collapse list-unstyled" id="serviceSubmenu">
+          <div class="serviceClose">
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+          <li class="dropdown-submenu">
+            <a href="#" class="dropdown-toggle"> Technology Consulting </a>
+            <ul class="collapse list-unstyled" id="tcSubmenu">
+              <li><a href="#">Sharepoint Application Development</a></li>
+              <li><a href="#">Custom Software Application Development</a></li>
+              <li><a href="#">Mobility Solutions</a></li>
+              <li><a href="#">Application Maintenance and Support</a></li>
+              <li><a href="#">Testing Services</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-submenu animatedParent">
+            <a href="#" class="dropdown-toggle">Web Development </a>
+            <ul class="collapse list-unstyled" id="wdSubmenu">
+              <li><a href="#">Website Designing</a></li>
+              <li><a href="#">Web Application Development</a></li>
+              <li><a href="#">Web 2.0</a></li>
+              <li><a href="#">E-commerce Portal Development</a></li>
+              <li><a href="#">Content Management System</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-submenu animatedParent">
+            <a href="#" class="dropdown-toggle">Mobile App Development </a>
+            <ul class="collapse list-unstyled" id="madSubmenu">
+              <li><a href="#"><span class="text-lowercase">i</span>OS/iPhone App Development</a></li>
+              <li><a href="#">Android App Development</a></li>
+              <li><a href="#">Hybrid Mobile App Development</a></li>
+              <li><a href="#">Native Mobile App Development</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-submenu animatedParent">
+            <a href="#saSubmenu" class="dropdown-toggle">Staff Augmentation </a>
+            <ul class="collapse list-unstyled" id="saSubmenu">
+              <li><a href="#">Offshore Staffing</a></li>
+              <li><a href="#">Onsite Staffing</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-submenu animatedParent">
+            <a href="#dmtcSubmenu" class="dropdown-toggle">Digital Marketing </a>
+            <ul class="collapse list-unstyled" id="dmtcSubmenu">
+              <li><a href="#">Search Engine Optimisation</a></li>
+              <li><a href="#">Social Media Optimisation</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </li>
+      <li><a href="#" id="technology"><i class="fa-solid fa-backward"></i> Technology</a>
+        <ul class="collapse list-unstyled" id="technologySubmenu">
+          <div class="technologyClose">
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+          <li><a href="microsoft-dot-net-development-platform.php" class="ful">Microsoft Platform</a></li>
+            <li class="dropdown-submenu animatedParent">
+              <a href="#ospSubmenu" class="dropdown-toggle">Open Source Platform </a>
+                <ul class="collapse list-unstyled" id="ospSubmenu">
+                <li class="dropdown-submenu2 animatedParent">
+                <a href="#" class="magento">Magento Development <i class="fa-solid fa-share arrows"></i></a>
+                <ul class="mdSubmenu displays">
+                  <li><a href="#">Custom Magento development</a></li>
+                  <li><a href="#">Magento e-commerce solutions</a></li>
+                  <li><a href="#">Hire Magento Developers</a></li>
+                  <li><a href="#">Magento development</a></li>
+                  <li><a href="#">Magento shopping cart</a></li>
+                  <li><a href="#">Responsive magento website</a></li>
+              </ul>
+           </li>
+           <li><a href="#">Wordpress Development</a></li>
+           <li><a href="#">PHP Development</a></li>
+           <li><a href="#">Joomla Development</a></li>
+           <li><a href="#">CakePHP Development</a></li>
+           <li><a href="#">ZendPHP Development</a></li>
+           <li><a href="#">OpenCart Development</a></li>
+           <li><a href="#">WooCommerce Development</a></li>
+          </ul>
+          </li>
+          <li><a href="#" class="ful">Mobile Technologies</a></li>
+        </ul>
+      </li>
+      <li><a href="#" id="Outsourcing"><i class="fa-solid fa-backward"></i> Outsourcing</a>
+        <ul class="collapse list-unstyled" id="outsourcingSubmenu">
+          <div class="OutsourcingClose">
+            <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+          </div>
+          <li><a href="#" class="ful">Outsourcing Services</a></li>
+            <li><a href="#" class="ful">Engagement Model</a></li>
+            <li><a href="#" class="ful">Delivery Model</a></li>
+            <li><a href="#" class="ful">Partnership</a></li>
+          </ul>
+      </li>
+      <li><a href="#">Case Study</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <section class="mainText">
+      <h1>Great Research Solutions Pvt. Ltd.</h1>
+      <h2><span class="autoType"></span></h2>
+    </section>
+
+    <div class="headerslide">
+      <img src="img/mobility.webp" alt="">
+      <img src="img/telecommunicatio.jpg" alt="">
+      <img src="img/webdesign.webp" alt="">
+      <img src="img/software.jpeg" alt="">
+      <img src="img/digita.jpeg" alt="">
+    </div>
+  </header>
+
+
+
+  <main>
+    <section class="aboutUs section" id="section2">
+      <div class="aboutText">
+        <h2>About Great Research Solutions Pvt. Ltd. ( GRSoft )</h2>
+        <h3>Great Research Solutions Pvt. Ltd. ( GRSoft ) is an IT company with no geographical boundaries and provides
+          all that you can think of around IT including consulting, solutions, applications and outsourcing services.
+        </h3>
+        <p>We are a combination of unmatched capabilities, experiences and jobs that serve across the industries. We
+          knit closely with the clients to deliver high quality solutions with latest technologies and every growing
+          business model approach. With the solutions provided by our professional staff our vision is to help our
+          clients always reach new heights.</p>
+        <p>We are firm believers of the adage that change is the only constant; hence we dwell on latest developments in
+          the technology field and stress on innovations and further enhance our execution and delivery. We are full of
+          essential resources to content our clients and flexible to fit in the requirements.</p>
+        <a href="#" class="btn">EXPLORE</a>
+      </div>
+    </section>
+    <section class="ourServices section" id="section3">
+      <div class="services">
+        <h2>OUR SERVICES</h2>
+        <div class="servicesBoxs">
+          <a href="#">
+            <div class="box">
+              <i class="fa-brands fa-connectdevelop"></i>
+              <h3>Open Source Development</h3>
+              <p>Our dedicated team at GRSoft Solutions provides expert guidance in open source development. We ensure
+                taht the client receives latest and comprehensive...</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa-solid fa-desktop"></i>
+              <h3>Web Development</h3>
+              <p>The high intense competition that is taking place between businesses these days constantly seeks for
+                adoption of latest technologies and more</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <h3>Mobile App Development</h3>
+              <p>New businesses are choosing mobile phones to become their face and the older ones are choosing then for
+                promotional activities</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa-solid fa-chart-line"></i>
+              <h3>Digital Signage</h3>
+              <p>A perfact digital signage network can help your organization and brand achieve targeted goals through
+                the optimum use of hardware and software products.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa-solid fa-bullhorn"></i>
+              <h3>Rich Internet Applications</h3>
+              <p>Our team at GRSoft Solution welcomes you to our finest services in the development of rich internet
+                applications. To make you understand about the services.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa fa-cogs"></i>
+              <h3>Legacy Modenization</h3>
+              <p>Legacy modenization is what commonly known as software modernization or in simple terms, legacy
+                modernization is software/ tech update for your company.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa fa-users"></i>
+              <h3>Staff Augmentation</h3>
+              <p>Our staff augmentation services can help you hire the best candidates in any sectors with any set of
+                skills, from management to operations and IT personals.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa fa-search-plus"></i>
+              <h3>Disital Marketing</h3>
+              <p>We are your complete digital marketing partner! GRSoft Solutions can help you achieve remarkable goals
+                with least amount of time consumed.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              <i class="fa fa-desktop"></i>
+              <h3>Offshore Software Development</h3>
+              <p>With the growth of technology, the need of the hour is set of effective IT solutions in order to
+                facilitate the global organizations to meet their IT requirements.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="countersection">
+      <div class="counter">
+        <div class="counterbox">
+          <i class="fa fa-user-plus"></i>
+          <h3><span class="count">0</span> <span>+</span></h3>
+          <h3>CLIENTS</h3>
+        </div>
+        <div class="counterbox">
+          <i class="fa fa-thumbs-up"></i>
+          <h3><span class="count">0</span> <span>+</span></h3>
+          <h3>DELIVERED PROJECTS</h3>
+        </div>
+        <div class="counterbox">
+          <i class="fa fa-clock"></i>
+          <h3><span class="count">0</span> <span>+</span></h3>
+          <h3>RUNNING PROJECTS</h3>
+        </div>
+        <div class="counterbox">
+          <i class="fa fa-users"></i>
+          <h3><span class="count">0</span> <span>+</span></h3>
+          <h3>EMPLOYEES STRENGTH</h3>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section Ourfeatures" id="section4">
+
+      <div class="featureBox">
+        <div class="webdesigning">
+          <img src="img/websiteDesigning.jpg" alt="webdesigning">
+          <div class="featureTexts">
+            <h2>WEBSITE DESIGNING</h2>
+            <h3>STATE OF THE ART WEB DESIGN SERVICES THAT SPEAK FOR THEMSELVES</h3>
+            <p>Reach to your employees and customers on the go, anytime, anywhere with our highly reliable
+              mobility solutions. Fetch the best out of our innovative solutions to extract the bestvalue and
+              make locations seem irrelevant with us.</p>
+            <a href="#" class="btn">EXPLORE</a>
+          </div>
+        </div>
+
+        <div class="telecommunication boxs">
+          <img src="img/telecommunicationServices.jpeg" alt="telecommunication">
+          <div class="featureText">
+            <h2>TELECOMMUNICATION SERVICES</h2>
+            <h3>THESE EXTEND TO:</h3>
+            <p>AVs /PABX /VPX (VOIP) IP /Video Conferencing /SAAS Training & Technology Solutions /Mobile Phones
+              /Secure Communications Platform (SCP) /Secure Resilient Communications (SRC)
+              /360 Degree Customer Experience Feedback and Survey Management System</p>
+            <a href="#" class="btn">EXPLORE</a>
+          </div>
+        </div>
+        <div class="softwareDevelopment boxs">
+          <img src="img/softwareDevelopment.jpeg" alt="">
+          <div class="featureText">
+            <h2 class="softh2">SOFTWARE DEVELOPMENT CONSULTING</h2>
+            <h3>QUALITY SOFTWARE, MOBILE APPS AND APPLICATIONS DELIVERED</h3>
+            <p>Delivering highly scalable solutions with robust coding and flexible functionalities,
+              GRSoft is an industry leader in introducing pioneer applications across a range
+              of businesses and industries.</p>
+            <a href="#" class="btn">EXPLORE</a>
+          </div>
+        </div>
+        <div class="digitalMarketing boxs">
+          <img src="img/digitalmarketing.jpg" alt="">
+          <div class="featureText">
+            <h2>DIGITAL MARKETING SERVICES</h2>
+            <h3>TAP THE UNTAPPED OPPORTUNITIES WITH OUR EFFECTIVE DIGITAL MARKETING SERVICES</h3>
+            <p>Explore unlimited opportunities by making the best use of our digital marketing services and
+              reach where you didn't on the go. Get to know what converts customer, their behaviour
+              and the likes, and frame your marketing strategy on the same lines.</p>
+            <a href="#" class="btn">EXPLORE</a>
+          </div>
+        </div>
+        <div class="mobility boxs">
+          <img src="img/mobilitysolution.jpg" alt="">
+          <div class="featureText">
+            <h2>MOBILITY SOLUTIONS</h2>
+            <h3>BOOST YOUR ROI WITH OUR HIGHLY ROBUST MOBILITY SOLUTIONS</h3>
+            <p>Reach to your employees and customers on the go, anytime, anywhere with our highly reliable
+              mobility solutions. Fetch the best out of our innovative solutions to extract the best value
+              and make locations seem irrelevant with us.</p>
+            <a href="#" class="btn">EXPLORE</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section blog" id="section5">
+
+      <div class="blog-section">
+        <div class="quote-container">
+          <div class="quote-slide active">
+            <i class="fa-solid fa-quote-left fa-3x"></i>
+            <h3>Gary <span> CEO</span></h3>
+            <p>I would like to present my gratitude towards the services and quality resources provided out our
+              crucial product by GR Soft. Appreciate the hard work done by team and well on time.</p>
+          </div>
+          <div class="quote-slide">
+            <i class="fa-solid fa-quote-left fa-3x"></i>
+            <h3>Sanjay Suri <span> CEO</span></h3>
+            <p>Thank you so much for a wonderful job on my website, which was done efficiently, quickly and in a to
+              tally professional manner. I have dealt with other website designers, but I can say that from now on you
+              will have all my business. Thank you again, and I stand ready to be a reference if required.</p>
+          </div>
+          <div class="quote-slide">
+            <i class="fa-solid fa-quote-left fa-3x"></i>
+            <h3>Urvashi Agarwal <span> CEO</span></h3>
+            <p>GRSoft has been a one stop for our web designing and e-commerce needs. They have helped us revamp our
+              website to reflect our brand identity and make it e-commerce friendly. Their team has been extremely
+              cooperative and helpful and have gone an extra mile give us solutions which have been smart,
+              sophisticated and relevant to the online need.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+  <footer class="footer section" id="section6">
+    <div class="footercontent">
+      <div class="address">
+        <h3>Address</h3>
+        <div class="addrestop">
+          <p>Great Research Solutions Pvt. Ltd. <br>
+            Offshore Development Center</p>
+        </div>
+        <div class="bothAddress">
+          <div class="india">
+            <img src="https://grsoftsolution.com/image/india-fleg.jpg" alt="india-flag">
+            <span>India Office</span><br>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>H-150, Sector 63 Noida, Uttar Pradesh Pin Code: 201301</span><br>
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 (858) 696-9185</span><br>
+            <i class="fa-solid fa-envelope"></i>
+            <span>sales@grsoftsolution.com</span>
+          </div>
+          <div class="usa">
+            <img src="https://grsoftsolution.com/image/usa-fleg.jpg" alt="usa-flag">
+            <span>USA Office</span><br>
+            <i class="fa-solid fa-location-dot"></i>
+            <span> 200 Spectrum Center Drive, Suite 300 - Irvine CA 92618</span> <br>
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 (972) 891-8552</span> <br>
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 (510) 455-4826</span> <br>
+          </div>
+        </div>
+        <div class="uk">
+          <img src="https://grsoftsolution.com/image/uk-fleg.jpg" alt="">
+          <span>UK Office</span> <br>
+          <i class="fa-solid fa-phone"></i>
+          <span>+44 20-8144-8921</span>
+        </div>
+
+      </div>
+      <div class="tags">
+        <h3>Tags</h3>
+        <div class="links">
+          <a href="#">Application Development</a>
+          <a href="#">Sharepoint Development</a>
+          <a href="#">.Net</a>
+          <a href="#">Mobility Solutions</a>
+          <a href="#">Application Testing</a>
+          <a href="#">PHP</a>
+          <a href="#">Joomia</a>
+          <a href="#">Magento</a>
+          <a href="#">Zend</a>
+          <a href="#">Cake PHP</a>
+          <a href="#">Wordpress</a>
+          <a href="#">iOS</a>
+          <a href="#">iPhone</a>
+          <a href="#">Anroid</a>
+          <a href="#">SEO</a>
+          <a href="#">SMO</a>
+        </div>
+        <h3>Reviewed On</h3>
+        <div class="review">
+          <a href="https://topappdevelopmentcompanies.com/company/grsoft-solutions" target="_blank"><img
+              src="https://grsoftsolution.com/image/top%20app.png" alt=""></a>
+          <a href="https://topsoftwarecompanies.co/united-states-of-america/software-development/agencies/michigan"
+            target="_blank"><img src="https://grsoftsolution.com/image/top%20software.svg" alt=""></a>
+          <a href="https://clutch.co/profile/great-research-solutions#highlights" target="_blank"><img
+              src="https://grsoftsolution.com/image/clutch.png" alt=""></a>
+        </div>
+        <div class="socialIcons">
+          <a href="https://www.facebook.com/GRSoftSolution/" target="_blank"><i class="fa-brands fa-facebook fa-2x"
+              style="color: #000000;"></i></a>
+          <a href="https://twitter.com/grsoftsolution" target="_blank"><i class="fa-brands fa-twitter fa-2x"
+              style="color: #000000;"></i></a>
+          <a href="https://www.linkedin.com/company/grsoft-solutions-p-ltd.?trk=company_logo&original_referer=https%3A%2F%2Fgrsoftsolution.com%2F"
+            target="_blank"><i class="fa-brands fa-linkedin fa-2x" style="color: #000000;"></i></a>
+          <a href="" target="_blank"><i class="fa-brands fa-skype fa-2x" style="color: #000000;"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footerText">
+      <p>Software Outsourcing Company India | Offshore Software Development | Software Development Firm | Software
+        Development Consultant | Custom Software Development | IT Outsourcing Company | Software Outsourcing | Offshore
+        Software Outsourcing | Offshore Software Consultant | Sofware Development Consultancy</p>
+    </div>
+    <div class="copyright">
+      <p>© 2021 Great Research Solution Pvt. Ltd. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+  <div class="circle"></div>
+
+
+
+  <div class="requestQuote">
+    <i class="fa-solid fa-comments"></i>
+    <h3>Quick Enquiry</h3>
+  </div>
+  <section class="form">
+    <h2>Talk to us about your project</h2>
+    <div class="formClose">
+      <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+    </div>
+    <form action="#" id="formBox">
+      <label for="name">Name*</label>
+      <input type="text" id="name" required>
+      <label for="email">Your Email*</label>
+      <input type="email" name="email" id="email">
+      <label for="phone">Phone Number</label>
+      <input type="number" name="" id="">
+      <label for="message">Your Massage</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <button type="submit" class="btn">Send Massage</button>
+    </form>
+  </section>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+  <script src="types.js"></script>
+</body>
+
+</html>

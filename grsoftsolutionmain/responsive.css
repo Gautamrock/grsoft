@@ -1,0 +1,350 @@
+@media (max-width: 600px){
+    #logo{
+        top: 3%;
+        left: 5%;
+      
+      }
+  #logo img{
+    width: 160px;
+
+  }
+  .side-menu{
+    display: none;
+  }
+    .navmenu{
+        display: none;
+    }
+    .hamburger{
+        width: 30px;
+        height: 20px;
+        right: 5%;
+        top: 3%;
+      }
+      .close{
+        right: 6%;
+    
+      }
+    
+      
+      .close i{
+        font-size: 2rem;
+        right: 8%;
+      }
+      .navslidedrag{
+        width: 100%;
+        height: 95vh;
+        padding: 4rem 1rem;
+        z-index: 50000000;
+      }
+      #companySubmenu{
+        width: 100%;
+        height: 100vh;
+        z-index: 201;
+        transform: translateX(-800%);
+        flex-direction: column;
+      }
+      .companyClose{
+        top: 0;
+        left: 1%;
+        font-size: 2rem;
+      }
+      #serviceSubmenu{
+        width: 100%;
+        z-index: 201;
+        transform: translateX(-800%);
+        justify-content: space-between;
+        overflow-x: scroll;
+      }
+      #serviceSubmenu a{
+        font-size: 1rem;
+      }
+      .serviceClose{
+        top: 0%;
+        left:  1%;
+        font-size: 2rem;
+      }
+
+      #technologySubmenu{
+        width: 100%;
+        z-index: 201;
+        transform: translateX(-800%);
+        overflow-x: scroll;
+        padding-left: 10rem;
+      }
+
+      #technologySubmenu a{
+        font-size: 1rem;
+      }
+      .technologyClose{
+        font-size: 2rem;
+        left: 1%;
+        top: 0;
+      }
+
+
+      #outsourcingSubmenu{
+        width: 100%;
+        z-index: 201;
+        transform: translateX(-800%);
+        flex-direction: column;
+
+      }
+      .OutsourcingClose{
+        font-size: 2rem;
+        left: 1%;
+        top: 0;
+      }
+      .requestQuote{
+        position: fixed;
+        top: 60%;
+        right: -25%;
+        font-size: 1rem;
+        transform: rotate(270deg);
+        background-color: #FCAEAE;
+        color: #FF6666;
+        width: 200px;
+        text-align: center;
+        height: 50px;
+        padding-top: 0.5rem;
+     
+      }
+      .formSlide{
+        width: 100%;
+        height: 80vh;
+        top: 10%;
+        left: 0;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 500000000000000;
+      }
+      .navslide a{
+        font-size: 1.5rem;
+      }
+      .line{
+        height: 3px;
+      }
+      .mainText{
+       width: 100%;
+       top: 60%;
+      }
+      .mainText h1{
+        font-size: 2rem;
+       }
+       .mainText h2{
+        font-size: 1rem;
+       }
+       .aboutUs{
+       padding: 5rem 0;
+      }
+    .mainSlide{
+      height: 50vh;
+    }
+      .mainSlide::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #ffca5f2e;
+        backdrop-filter: blur(3px);
+        z-index: -1;
+      }
+      .aboutText{
+       width: 100%;
+       margin: 0;
+      }
+ 
+       .aboutUs h2{
+        font-size: 1.5rem;
+       }
+       .aboutUs h2::after{
+        width: 20%;
+        height: 3px;
+        
+       }
+       .aboutUs h3{
+        font-size: 1rem;
+        width: 95%;
+       }
+       .aboutUs p{
+        text-align: center;
+        margin: 1rem auto;
+      }
+      .ourServices{
+       padding: 3rem 0;
+      }
+      .services{
+        width: 100%;
+        margin: 2rem auto;
+      }
+      .box::after{
+        left: 39%;
+        top: 4%;
+        width: 65px;
+        height: 65px;
+      }
+      .box{
+        width: 95%;
+        height: 350px;
+        margin: auto;
+      }
+      .servicesBoxs{  
+        padding: 1rem;
+      }
+
+
+      .countersection{
+        
+        background-position: center;
+   
+      }
+
+      .counter {
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .counterbox {
+        width: 250px;
+        height: 200px;
+        margin: auto;
+      }
+      .counterbox i{
+        font-size: 1.5rem;
+     
+      }
+      .counterbox span{
+        font-size: 2.5rem;
+        color: aliceblue;
+      }
+      .counterbox h3{
+        font-size: 1rem;
+        color: aliceblue;
+      }
+
+       .Ourfeatures{
+        height: 100%;
+      }
+       .featureBox{
+        width: 100%;
+        height: 100%;
+      }
+      .webdesigning{
+        width: 95%;
+        height: 300px;
+        float: none;
+        margin: auto;
+      }
+      .featureTexts{
+        width: 100%;
+        top: 90%;
+        padding: 0.5rem;
+      }
+      .featureTexts h2{
+        font-size: 1.2rem;
+      }
+      .featureText h3{
+        font-size: 0.8rem;
+      }
+      .featureText p{
+      font-size: 0.6rem;
+      }
+      .featureText{
+        width: 100%;
+        top: 67%;
+        left: 0;
+     
+      }
+      .featureText h2{
+        font-size: 1rem;
+      }
+
+      .boxs{
+        width: 95%;
+        margin: 1rem auto;
+        height: 300px;
+        position: relative;
+        float: none;
+      }
+      .featureText .softh2{
+        font-size: 0.8rem;
+        padding: 0.5rem 0;
+      }
+
+      .blog{
+        padding: 5rem 0;
+      }
+      .quote-slide{
+        backdrop-filter: blur(5px);
+        border-radius: 25px;
+      }
+.quote-slide h3{
+  font-size: 1.5rem;
+}
+.quote-slide h3 span{
+  font-size: 1rem;
+}
+.quote-slide p {
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+      .footercontent{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+      }
+      .bothAddress{
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+      .address{
+        width: 98%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        transform: translateX(-100%);
+        transition: all 0.5s ease;
+        border-bottom: 2px solid gray;
+        border-right: none;
+      }
+      .addressslide{
+        transform: translateX(0);
+      }
+      .tags{
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 5rem;
+        transform: translateX(-100%);
+        transition: all 0.5s ease; 
+        padding-left: 0;
+      }
+      .review{
+        gap: 1rem;
+      }
+      .tagsslide{
+        transform: translateX(0);
+      }
+      .review img{
+        width: 100px;
+       }
+       .socialIcons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+       }
+
+       .footerText{
+        width: 98%;
+        padding: 2rem;
+        margin-top: 2rem;
+      }
+     
+    }
